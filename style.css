@@ -12,7 +12,7 @@ h1 {
 }
 
 #content {
-    margin-top: 300px;
+    margin-top: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,13 @@ td {
     text-align: center;
     font-size: 36px;
     font-weight: bold;
+    cursor: pointer;
 }
+
+td:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
 
 table td {
     border: 5px solid white;
@@ -50,4 +56,40 @@ table tr:last-child td {
 
 table tr td:last-child {
     border-right: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+button {
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #00B0EF;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #96cadd;
+}
+
+.div3 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.padding-right {
+    padding-right: 8px;
 }
